@@ -1,0 +1,84 @@
+/* General styles */
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+/* Utility classes */
+.container {
+  width: 575px;
+  margin: 0 auto;
+}
+
+.dark-text {
+  font-weight: 700;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+.mr {
+  margin-right: 25px;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Header section */
+.logo {
+  width: 200px;
+}
+
+#main-header {
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c6c6c6;
+  margin: 15px 0;
+}
+
+/* Section: Heading */
+.post-acct > h3,
+.post-acct > h4 {
+  margin: 5px 0 5px 10px;
+}
+
+/* Section: Main post */
+.main-post {
+  margin: 10px 0;
+}
+.main-post img {
+  width: 100%;
+}
+
+/* Section: Like section */
+.icons img {
+  width: 40px;
+  margin: 20px 10px 0 10px;
+}
+
+.icons img:hover {
+  opacity: 0.8;
+  scale: 1.2;
+}
