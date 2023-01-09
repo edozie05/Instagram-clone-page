@@ -18,7 +18,7 @@ h4 {
 
 /* Utility classes */
 .container {
-  width: 575px;
+  max-width: 575px;
   margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ h4 {
 
 /* Section: Main post */
 .main-post {
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 .main-post img {
   width: 100%;
@@ -74,11 +74,21 @@ h4 {
 
 /* Section: Like section */
 .icons img {
-  width: 40px;
-  margin: 20px 10px 0 10px;
+  width: 30px;
+  margin: 10px 10px 0 10px;
 }
 
 .icons img:hover {
   opacity: 0.8;
   scale: 1.2;
+}
+
+.like-section h3 {
+  margin-top: 10px;
+}
+
+.comment {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c6c6c6;
 }
